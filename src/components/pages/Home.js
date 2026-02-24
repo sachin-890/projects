@@ -38,11 +38,11 @@ import c28 from '../../assets/c28.jpg';
 import t1 from '../../assets/t1.jpg';
 import t2 from '../../assets/t2.jpg';
 import t3 from '../../assets/t3.jpg';
-import Full from './Full';
+
 function Home() {
   return (
     <div className="home-page">
-      <Full />
+      
       
 
       {/* Hero Carousel Section */}
