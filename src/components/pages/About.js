@@ -4,10 +4,8 @@ import './About.css';
 
 // Import team member images (replace with actual image paths)
 
-import p2 from '../../assets/p2.jpg';
-import p3 from '../../assets/p3.jpg';
-import foxel from '../../assets/foxel.jpg';
-import ceo1 from '../../assets/ceo1.jpg';
+
+import affu from '../../assets/affu.jpeg';
 import ghouse1 from'../../assets/ghouse1.jpg';
 import sd3 from'../../assets/sd3.jpg';
 
@@ -31,27 +29,22 @@ function About() {
     {
       id: 1,
       name: "Mohammed Afnan",
-      role: "Founder and CEO",
-      image: ceo1
+      role: "Front-End Developer",
+      image: affu
     },
     {
       id: 2,
-      name: "ghouse khan",
+      name: "Ghouse khan",
       role: "manager", 
       image: ghouse1
     },
     {
       id: 3,
-      name: "sachin R",
+      name: "S achin R",
       role: "assistant manager",
       image: sd3
     },
-    {
-      id: 4,
-      name: "Akhay K K",
-      role: "Founder and CFO",
-      image: foxel
-    }
+    
   ];
 
   return (
